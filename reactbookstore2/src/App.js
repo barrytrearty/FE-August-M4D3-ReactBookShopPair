@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <MyNavbar color="warning" text="Navbar" />
-      <WarningSign text="Warning" />
+      <WarningSign text="Roosa's Ridiculous Reading Recommendations" />
       <MyBadge color="success" text="My Badge" />
       <BookList array={books1} />
     </div>

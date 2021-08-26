@@ -29,3 +29,33 @@ const MyNavbar = ({ title, color }) => {
 };
 
 export default MyNavbar;
+
+// class MyNavbar extends component {
+
+// state={
+//     searchValue: "",
+// }
+
+//     render(){ return (
+//       <Navbar bg="warning" variant="secondary">
+//         <Navbar.Brand href="#">Roosa's Reads</Navbar.Brand>
+//         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+//         <Navbar.Collapse id="responsive-navbar-nav">
+//           <Nav className="mr-auto">
+//             <Nav.Link href="#features">Roosa's Reads</Nav.Link>
+//           </Nav>
+//           <Form className="d-flex">
+//             <FormControl
+//               type="search"
+//               placeholder="Search Books"
+//               className="mr-2"
+//               aria-label="Search"
+//               onChange="FilterBookList(this.value)"
+//             ></FormControl>
+//             <Button variant="outline-success">GO</Button>
+//           </Form>
+//         </Navbar.Collapse>
+//       </Navbar>
+//     );}
+
+//   };
